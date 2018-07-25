@@ -1,0 +1,498 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"f_custom",
+				"f_custom_code"
+			],
+			[
+				"di",
+				"div\tTag"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"ar",
+				"array_column"
+			],
+			[
+				"produ",
+				"product_id"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"fun",
+				"function〔keyword〕"
+			],
+			[
+				"hospi",
+				"hospital_id"
+			],
+			[
+				"va",
+				"var_dump"
+			],
+			[
+				"f_cu",
+				"f_custom_code1"
+			],
+			[
+				"se",
+				"settlement"
+			],
+			[
+				"array_cu",
+				"array_column〔function〕"
+			],
+			[
+				"Sfk",
+				"SfkSettlementLogic〔namespace〕"
+			],
+			[
+				"cur",
+				"current_page"
+			],
+			[
+				"mo",
+				"$model_data〔variable〕"
+			],
+			[
+				"print",
+				"print_r〔function〕"
+			],
+			[
+				"k",
+				"$key〔variable〕"
+			],
+			[
+				"s",
+				"switch\tswitch …"
+			],
+			[
+				"for",
+				"foreach\tforeach …"
+			],
+			[
+				"ship",
+				"ship_id"
+			],
+			[
+				"SfkS",
+				"SfkSettlementModel"
+			],
+			[
+				"ins",
+				"$insert_rs〔variable〕"
+			],
+			[
+				"up",
+				"$update_rs〔variable〕"
+			],
+			[
+				"co",
+				"continue"
+			],
+			[
+				"sf_pro",
+				"$sf_protocol_converate〔variable〕"
+			],
+			[
+				"var",
+				"var_dump〔function〕"
+			],
+			[
+				"Sf",
+				"SfkSettlementModel"
+			],
+			[
+				"sf_",
+				"sf_ship_flows"
+			],
+			[
+				"sf_shi",
+				"sf_ship_flows"
+			],
+			[
+				"sf",
+				"sf_ship_flow"
+			],
+			[
+				"f_c",
+				"f_customs"
+			],
+			[
+				"sf_sh",
+				"sf_ship_flows"
+			],
+			[
+				"stat",
+				"static"
+			],
+			[
+				"f_",
+				"f_price"
+			],
+			[
+				"sf_s",
+				"sf_ship_flow_converate"
+			],
+			[
+				"sta",
+				"static"
+			],
+			[
+				"shi",
+				"sf_ship_flows"
+			],
+			[
+				"pu",
+				"public"
+			],
+			[
+				"w",
+				"where"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "<?php\n\nnamespace App\\Models;\n\nuse Illuminate\\Notifications\\Notifiable;\nuse Illuminate\\Foundation\\Auth\\User as Authenticatable;\n\nclass User extends Authenticatable\n{\n    use Notifiable;\n    \n    protected $table = 'users';\n\n    /**\n     * The attributes that are mass assignable.\n     *\n     * @var array\n     */\n    protected $fillable = [\n        'name', 'email', 'password',\n    ];\n\n    /**\n     * The attributes that should be hidden for arrays.\n     *\n     * @var array\n     */\n    protected $hidden = [\n        'password', 'remember_token',\n    ];\n}\n",
+			"file": "app/Models/User.php",
+			"file_size": 555,
+			"file_write_time": 131744562502554016,
+			"settings":
+			{
+				"buffer_size": 555,
+				"encoding": "UTF-8",
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"contents": "",
+			"file": "app/Models/Article.php",
+			"file_size": -1,
+			"file_write_time": -1,
+			"settings":
+			{
+				"buffer_size": 0,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "Package Control: ",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 444.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"import urllib.request,os; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); open(os.path.join(ipp, pf), 'wb').write(urllib.request.urlopen( '[http://sublime.wbond.net/](http://sublime.wbond.net/)' + pf.replace(' ','%20')).read())",
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/Users/Administrator/Code/sample",
+		"/C/Users/Administrator/Code/sample/app",
+		"/C/Users/Administrator/Code/sample/app/Models"
+	],
+	"file_history":
+	[
+		"/C/Users/Administrator/Code/sample/app/User.php",
+		"/C/Users/Administrator/Code/sample/app/Models/Article.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/model/SfShipFlowModel.php",
+		"/C/Users/Administrator/Code/sample/node_modules/node-sass/src/libsass/Makefile",
+		"/C/Users/Administrator/Code/sample/resources/assets/sass/app.scss",
+		"/C/Users/Administrator/Code/sample/public/css/app.css",
+		"/C/Users/Administrator/Code/sample/vendor/laravel/framework/src/Illuminate/Contracts/Routing/ResponseFactory.php",
+		"/C/Users/Administrator/Code/sample/resources/views/static_pages/home.blade.php/",
+		"/C/Users/Administrator/Code/sample/resources/views/static_pages/about.blade.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/public/themes/admin_simpleboot3/admin/fk_settlement/index.html",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/public/themes/admin_simpleboot3/admin/sfk_settlement/add.html",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/model/SfkSettlementModel.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/controller/SfkSettlementController.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/model/SfkfSettlementModel.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/logic/SfkSettlementLogic.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/model/FkSettlementModel.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/model/RoleUserModel.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/model/RoleModel.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/model/UserModel.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/model/AdminMenuModel.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/controller/UserController.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/controller/MenuController.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/controller/RbacController.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/User/SublimeCodeIntel.sublime-settings",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/SublimeCodeIntel/SublimeCodeIntel.sublime-settings",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/logic/FkSettlementLogic.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/simplewind/thinkphp/library/think/db/Query.php",
+		"/C/Users/Administrator/Code/sample/.env",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/job/CreateFkSettlement.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/public/themes/admin_simpleboot3/admin/sf_protocol/edit.html",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/model/SfProtocolModel.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/controller/SfShipFlowController.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/logic/PolicyLogic.php",
+		"/C/Users/Administrator/AppData/Roaming/Sublime Text 3/Packages/PHP Companion/PHP Companion.sublime-settings",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/public/themes/admin_simpleboot3/admin/sf_ship_flow/index.html",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/controller/SfMatchCustomManageController.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/service/ApiService.php",
+		"/C/Users/Administrator/Code/Laravel/public/index.php",
+		"/Y/lost+found/youxi/lcby/lcby_api2/api/controllers/LoginController.php",
+		"/C/Users/Administrator/Code/Laravel/.env",
+		"/C/Users/Administrator/Code/Laravel/resources/views/welcome.blade.php",
+		"/C/Users/Administrator/Code/Laravel/database/migrations/2014_10_12_100000_create_password_resets_table.php",
+		"/C/Users/Administrator/Code/Laravel/database/migrations/2014_10_12_000000_create_users_table.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/controller/AgentController.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/simplewind.bak/thinkphp/library/think/response/View.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/model/AgentModel.php",
+		"/Y/lost+found/youxi/lcby/lcby_api2/api/controllers/CdkController.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/simplewind.bak/thinkphp/library/think/Request.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/controller/HospitalController.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/controller/CountingStatisticsController.php",
+		"/Y/lost+found/youxi/lcby/lcby_api2/api/pfrom/btesdk/models/LoginModel.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/model/ShipFlowModel.php",
+		"/Y/lost+found/youxi/lcby/lcby_api2/api/pfrom/btesdk/config/base.config.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/model/CalcStoreModel.php",
+		"/Y/lost+found/degon/think_cmf/thinkcmf_jyms/app/admin/controller/FinanceController.php"
+	],
+	"find":
+	{
+		"height": 40.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Models/User.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 555,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								555,
+								555
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/Models/Article.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/PHP/PHP.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 40.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "smp.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"fksetementMO",
+				"thinkcmf_jyms\\app\\admin\\model\\FkSettlementModel.php"
+			],
+			[
+				"SfkSett",
+				"thinkcmf_jyms\\app\\admin\\model\\SfkSettlementModel.php"
+			],
+			[
+				"sfk",
+				"thinkcmf_jyms\\app\\admin\\controller\\SfkSettlementController.php"
+			],
+			[
+				"sfshi",
+				"app\\admin\\controller\\SfShipFlowController.php"
+			],
+			[
+				"hospitalcon",
+				"app\\admin\\controller\\HospitalController.php"
+			],
+			[
+				"financ",
+				"app\\admin\\controller\\FinanceController.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"$(PREFIX)"
+			]
+		],
+		"width": 798.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 401.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

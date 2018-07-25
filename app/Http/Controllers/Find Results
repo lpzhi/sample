@@ -1,0 +1,50 @@
+Searching 24569 files for "App\Models\User"
+
+C:\Users\Administrator\Code\sample\app\Http\Controllers\Auth\RegisterController.php:
+    3  namespace App\Http\Controllers\Auth;
+    4  
+    5: use App\Models\User;
+    6  use App\Http\Controllers\Controller;
+    7  use Illuminate\Support\Facades\Validator;
+    .
+   59       *
+   60       * @param  array  $data
+   61:      * @return \App\Models\User
+   62       */
+   63      protected function create(array $data)
+
+C:\Users\Administrator\Code\sample\config\auth.php:
+   68          'users' => [
+   69              'driver' => 'eloquent',
+   70:             'model' => App\Models\User::class,
+   71          ],
+   72  
+
+C:\Users\Administrator\Code\sample\config\services.php:
+   31  
+   32      'stripe' => [
+   33:         'model' => App\Models\User::class,
+   34          'key' => env('STRIPE_KEY'),
+   35          'secret' => env('STRIPE_SECRET'),
+
+C:\Users\Administrator\Code\sample\database\factories\UserFactory.php:
+   14  */
+   15  
+   16: $factory->define(App\Models\User::class, function (Faker $faker) {
+   17      return [
+   18          'name' => $faker->name,
+
+C:\Users\Administrator\Code\sample\storage\logs\laravel.log:
+  521  #51 {main}
+  522  "} 
+  523: [2018-06-26 15:00:17] local.ERROR: Class '\App\Models\User' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class '\\App\\User' not found at /home/vagrant/Code/sample/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php:147)
+  524  [stacktrace]
+  525  #0 /home/vagrant/Code/sample/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php(113): Illuminate\\Auth\\EloquentUserProvider->createModel()
+  ...
+  661  #36 {main}
+  662  "} 
+  663: [2018-06-26 15:02:12] local.ERROR: Class '\App\Models\User' not found {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): Class '\\App\\User' not found at /home/vagrant/Code/sample/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php:147)
+  664  [stacktrace]
+  665  #0 /home/vagrant/Code/sample/vendor/laravel/framework/src/Illuminate/Auth/EloquentUserProvider.php(113): Illuminate\\Auth\\EloquentUserProvider->createModel()
+
+7 matches across 5 files
